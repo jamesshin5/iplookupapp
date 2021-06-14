@@ -33,7 +33,7 @@
 
 	try { 
 		var r = new sn_ws.RESTMessageV2('x_648110_iplookup.IPInfo', 'GetIPInfo');
-		r.setStringParameterNoEscape('ipaddress', 'current.ipaddress');
+		r.setStringParameterNoEscape('ipaddress', current.ip_address);
 		r.setStringParameterNoEscape('specific_field', 'geo');
 
 		//override authentication profile 
@@ -51,6 +51,7 @@
 		var response = r.execute();
 		var responseBody = response.getBody();
 		var httpStatus = response.getStatusCode();
+		gs.info("httpStatus: " + httpStatus);
 		var responseObj = JSON.parse(responseBody);
 		gs.info("before = " + current);
 		current.city = responseObj.city;
@@ -69,7 +70,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f313e03c2f7830108b5cdc1a2799b603</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Populate IP Address City</sys_name>
         <sys_overrides/>
         <sys_package display_value="IPLookup" source="x_648110_iplookup">3162107c2f3830108b5cdc1a2799b6cf</sys_package>
@@ -77,7 +78,7 @@
         <sys_scope display_value="IPLookup">3162107c2f3830108b5cdc1a2799b6cf</sys_scope>
         <sys_update_name>sys_script_f313e03c2f7830108b5cdc1a2799b603</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-14 17:01:07</sys_updated_on>
+        <sys_updated_on>2021-06-14 17:15:42</sys_updated_on>
         <template/>
         <when>async</when>
     </sys_script>
