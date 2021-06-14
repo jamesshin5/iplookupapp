@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="IPAddressInfo">55b790f02f7830108b5cdc1a2799b6e8</application>
+        <filter/>
+        <name>IPAddressInfos</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_648110_iplookup.ipaddressinfo_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-14 15:58:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>51b790f02f7830108b5cdc1a2799b6eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IPAddressInfos</sys_name>
+        <sys_package display_value="IPLookup" source="x_648110_iplookup">3162107c2f3830108b5cdc1a2799b6cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">3162107c2f3830108b5cdc1a2799b6cf</sys_scope>
+        <sys_update_name>sys_ui_module_51b790f02f7830108b5cdc1a2799b6eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-14 15:58:02</sys_updated_on>
+        <table>x_648110_iplookup_ipaddressinfo</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IPLookup">3162107c2f3830108b5cdc1a2799b6cf</application>
+        <file_path/>
+        <instance_id>156e8b7fdbaf130c7d8cf22ebf96193a</instance_id>
+        <instance_name>dev68564</instance_name>
+        <name>sys_ui_module_51b790f02f7830108b5cdc1a2799b6eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="IPAddressInfo">55b790f02f7830108b5cdc1a2799b6e8</application><filter/><name>IPAddressInfos</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_648110_iplookup.ipaddressinfo_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-14 15:58:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>51b790f02f7830108b5cdc1a2799b6eb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IPAddressInfos</sys_name><sys_package display_value="IPLookup" source="x_648110_iplookup">3162107c2f3830108b5cdc1a2799b6cf</sys_package><sys_policy/><sys_scope display_value="IPLookup">3162107c2f3830108b5cdc1a2799b6cf</sys_scope><sys_update_name>sys_ui_module_51b790f02f7830108b5cdc1a2799b6eb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-14 15:58:02</sys_updated_on><table>x_648110_iplookup_ipaddressinfo</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1284306935</payload_hash>
+        <record_name>IPAddressInfos</record_name>
+        <reverted_from/>
+        <source>7562107c2f3830108b5cdc1a2799b6d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-14 15:58:02</sys_created_on>
+        <sys_id>1db790f02f7830108b5cdc1a2799b6ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a0b3e7ed10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-14 15:58:02</sys_updated_on>
+        <type>Module</type>
+        <update_guid>55b790f0aa7830109568c7175100d1ed</update_guid>
+        <update_guid_history>55b790f0aa7830109568c7175100d1ed:1284306935</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-14 16:45:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>085712ec25964cd19956f4f161cffb91</sys_id>
+        <sys_metadata>51b790f02f7830108b5cdc1a2799b6eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IPAddressInfos</sys_name>
+        <sys_package display_value="IPLookup" source="x_648110_iplookup">3162107c2f3830108b5cdc1a2799b6cf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">3162107c2f3830108b5cdc1a2799b6cf</sys_scope>
+        <sys_scope_delete display_value="">18b99880c06b41ab860128a60c4085e9</sys_scope_delete>
+        <sys_update_name>sys_ui_module_51b790f02f7830108b5cdc1a2799b6eb</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_51b790f02f7830108b5cdc1a2799b6eb">1db790f02f7830108b5cdc1a2799b6ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-14 16:45:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
